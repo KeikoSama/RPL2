@@ -1,0 +1,743 @@
+<html>
+  <head>
+    <title>Home | World Journey</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <style>
+      .row {
+        margin: 10px 30px;
+        border-top: 10px solid rgb(255, 250, 156);
+        border-radius: 10px;
+        padding: 20px;
+        text-align: left;
+        box-shadow: 0 0 10px gainsboro;
+        background-color: rgba(247, 237, 245, 0.793);
+      }
+      .row-flex {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .modal-body {
+        background-color: rgba(251, 245, 218, 0.684);
+      }
+      .modal-header {
+        background-color: rgba(247, 241, 212, 0.695);
+      }
+      .navbar-toggler {
+        width: 100%;
+      }
+      .nav-link {
+        width: 100%;
+      }
+      .container-fluid {
+        overflow: hidden;
+      }
+      .btn btn-outline-light btn-floating m-1 {
+        height: 100%;
+        width: 100%;
+      }
+      @media screen and (min-width: 601px) {
+        div.Open {
+          font-size: 40px;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        div.Open {
+          font-size: 20px;
+        }
+      }
+
+      @media screen and (min-width: 601px) {
+        div.Packa {
+          font-size: 25px;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        div.Packa {
+          font-size: 15px;
+        }
+      }
+
+      @media screen and (min-width: 601px) {
+        div.Packe {
+          font-size: 25px;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        div.Packe {
+          font-size: 15px;
+        }
+      }
+
+      @media screen and (min-width: 601px) {
+        div.Packu {
+          font-size: 30px;
+          color: rgb(83, 161, 59);
+        }
+      }
+      @media screen and (max-width: 600px) {
+        div.Packu {
+          font-size: 20px;
+          color: rgb(83, 161, 59);
+        }
+      }
+
+      @media screen and (min-width: 601px) {
+        div.Packo {
+          font-size: 30px;
+          color: rgb(83, 161, 59);
+        }
+      }
+      @media screen and (max-width: 600px) {
+        div.Packo {
+          font-size: 20px;
+          color: rgb(83, 161, 59);
+        }
+      }
+
+      @media screen and (min-width: 601px) {
+        div.Packw {
+          font-size: 25px;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        div.Packw {
+          font-size: 15px;
+        }
+      }
+      body {
+        background-color: rgba(250, 240, 195, 0.684);
+        margin: 0px;
+      }
+    </style>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand m" href="#page-top"
+          ><img src="Gambar/shrine.png" width="60px" alt="" /><span
+            style="color: red; font-size: 40"
+          >
+            World
+          </span>
+          Journey <img src="Gambar/fan.png" width="4%" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a class="nav-link" href="WorldJourney.html">
+                <span style="font-size: 23px"> Home </span></a
+              >
+            </li>
+            <li class="nav-item">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a class="nav-link" href="Worldjourney-ABout-US.html">
+                <span style="font-size: 23px">About Us </span></a
+              >
+            </li>
+            <li class="nav-item">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a class="nav-link" href="WorldJourney2.html"
+                ><span style="font-size: 23px"> Tour Gallery </span></a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                <span style="font-size: 23px">Pilihan Paket</span></a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="WorldJourney1.html"
+                    >Tour Pack Regular</a
+                  >
+                </li>
+                <div class="dropdown-divider"></div>
+                <li>
+                  <a class="dropdown-item" href="WorldJourney1.html"
+                    >Tour Pack Extra</a
+                  >
+                </li>
+                <div class="dropdown-divider"></div>
+                <li>
+                  <a class="dropdown-item" href="WorldJourney1.html"
+                    >Tour Pack Premium</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      ​
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="2"
+        ></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="Gambar/jp1.jpg"
+            alt="Chureito-Pagoda"
+            class="d-block"
+            style="width: 100%"
+          />
+          <div class="carousel-caption">
+            <h3>Chureito Pagoda</h3>
+            <p>Famous for it's view!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="Gambar/Jpp7.jpg"
+            alt="Sensō-ji"
+            class="d-block"
+            style="width: 100%"
+          />
+          <div class="carousel-caption">
+            <h3>Sensō-ji</h3>
+            <p>Named as "The Most Beautiful Temple" By Locals!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="Gambar/Jpp5.jpg"
+            alt="Kinkaku-ji"
+            class="d-block"
+            style="width: 100%"
+          />
+          <div class="carousel-caption">
+            <h3>Kinkaku-ji</h3>
+            <p>The Golden Temple</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    <br />
+    <!-- Griid -->
+    <div class="container-fluid p-0">
+      <div class="raw">
+        <div class="col">
+          <h1 class="text-center">Tour Information</h1>
+        </div>
+      </div>
+      <br />
+      <div class="container-fluid mt-3">
+        <div class="row-flex">
+          <div class="row">
+            <div class="col-sm-4 p-2 text-white">
+              <img src="Gambar/jpp3.png" alt="" height="auto" width="100%" />
+            </div>
+            <div class="col-sm-8 p-3 text- text-black">
+              <div class="Packa">
+                The Tokyo Skytree (東京スカイツリー) is a television
+                broadcasting tower and landmark of Tokyo. It is the centerpiece
+                of the Tokyo Skytree Town in the Sumida City Ward, not far away
+                from Asakusa. With a height of 634 meters, it is the tallest
+                structure in Japan and was the second tallest in the world at
+                the time of its completion. A large shopping complex with an
+                aquarium is located at its base.
+              </div>
+              <br />
+              <div class="Open">Open & Close Time : 10 AM–9 PM</div>
+              <div class="container mt-3">
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModal3"
+                >
+                  <i></i>
+                  See more...
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- The Modal -->
+          <div class="modal" id="myModal3">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <img src="Gambar/jptree.jpg" width="100%" />
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <h4>Tokyo Sky Tree</h4>
+                  <h6>
+                    The highlight of the Tokyo Skytree is its two observation
+                    decks which offer spectacular views out over Tokyo. The two
+                    enclosed decks are located at heights of 350 and 450 meters
+                    respectively, making them the highest observation decks in
+                    Japan. Tembo Deck, the lower of the two decks is 350 meters
+                    high and spans three levels with great views from all of its
+                    floors. The top floor features tall, broad windows that
+                    offer some of the best 360 degree panoramic views of the
+                    city. The middle floor has a souvenir shop and the Musashi
+                    Sky Restaurant, which serves French-Japanese fusion cuisine,
+                    while the lowest floor features a cafe and some glass panels
+                    on the ground for a vertical look downwards. A second set of
+                    elevators connects the Tembo Deck to the 450 meter high
+                    Tembo Galleria. Dubbed "the world's highest skywalk", the
+                    Tembo Galleria consists of a sloping spiral ramp that gains
+                    height as it circles the tower. The construction of the
+                    steel and glass tube allows visitors to look down from the
+                    dizzying height of the tower and out over the Kanto Region.
+                    At the top of the spiral ramp is a more conventional
+                    observation deck floor with lounging areas and tall windows
+                    from which to look out over Tokyo. This floor is officially
+                    located at 451.2 meters and constitutes the highest point of
+                    the observation decks.
+                  </h6>
+                  <h3>Location :</h3>
+                  <p class="tombol1"></p>
+                  <article class="maps">
+                    <div class="maps">
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.656784611318!2d139.80851171525973!3d35.71006268018753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ed0d12f9adf%3A0x7d1d4fb31f43f72a!2sTokyo%20Skytree!5e0!3m2!1sen!2sid!4v1681207404010!5m2!1sen!2sid"
+                        width="600"
+                        height="450"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                      ></iframe>
+                    </div>
+                  </article>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+                
+            </div>
+          </div>
+
+          <br />
+          <br />
+
+          <div class="row">
+            <div class="col-sm-4 p-2">
+              <img src="Gambar/jpp1.png" alt="" height="auto" width="100%" />
+            </div>
+            <div class="col-sm-8 p-3 text-black">
+              <div class="Packa">
+                Meiji Shrine (明治神宮, Meiji Jingū) is a shrine dedicated to
+                the deified spirits of Emperor Meiji and his consort, Empress
+                Shoken. Located just beside the JR Yamanote Line's busy Harajuku
+                Station, Meiji Shrine and the adjacent Yoyogi Park make up a
+                large forested area within the densely built-up city. The
+                spacious shrine grounds offer walking paths that are great for a
+                relaxing stroll.
+              </div>
+              <br />
+              <div class="Open">Open & Close Time : 5:20 AM–5:20 PM</div>
+              <br />
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#myModal4"
+              >
+                <i></i>
+                See more...
+              </button>
+            </div>
+          </div>
+
+          <!-- The Modal -->
+          <div class="modal" id="myModal4">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <img src="Gambar/jpm2.jpg" width="100%" />
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <h4>Meiji Shrine (明治神宮, Meiji Jingū)</h4>
+                  <h6>
+                    Meiji Jingu is a Shinto shrine. Shinto is called Japan's
+                    ancient original religion, and it is deeply rooted in the
+                    way of Japanese life. Shinto has no founder, no holy book,
+                    and not even the concept of religious conversion, but Shinto
+                    values for example harmony with nature and virtues such as
+                    "Magokoro (sincere heart)". In Shinto, some divinity is
+                    found as Kami (divine spirit), or it may be said that there
+                    is an unlimited number of Kami. You can see Kami in
+                    mythology, in nature, and in human beings. From ancient
+                    times, Japanese people have felt awe and gratitude towards
+                    such Kami and dedicated shrines to many of them. This shrine
+                    is dedicated to the divine souls of Emperor Meiji and his
+                    consort Empress Shoken (their tombs are in Kyoto). Emperor
+                    Meiji passed away in 1912 and Empress Shoken in 1914. After
+                    their demise, people wished to commemorate their virtues and
+                    to venerate them forever. So they donated 100,000 trees from
+                    all over Japan and from overseas, and they worked
+                    voluntarily to create this forest. Thus, thanks to the
+                    sincere heart of the people, this shrine was established on
+                    November 1, 1920
+                  </h6>
+                  <h3>Location :</h3>
+                  <p class="tombol1"></p>
+                  <article class="maps">
+                    <div class="maps">
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.024546511265!2d139.6971372152587!3d35.676397580195484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cb79a4c26e5%3A0x8fca893849103f73!2sMeiji%20Jingu!5e0!3m2!1sen!2sid!4v1681541961100!5m2!1sen!2sid"
+                        width="600"
+                        height="450"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                      ></iframe>
+                    </div>
+                  </article>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+          <br />
+          <div class="container-fluid mt-3">
+            <div class="row">
+              <div class="col-sm-4 p-2 text-white">
+                <img src="Gambar/jpp2.jpg" alt="" height="auto" width="100%" />
+              </div>
+              <div class="col-sm-8 p-3 text-black">
+                <div class="Packe">
+                  Akihabara (秋葉原), also called Akiba after a former local
+                  shrine, is a district in central Tokyo that is famous for its
+                  many electronics shops and has also gained recognition as the
+                  center of Japan's otaku (diehard fan) culture. Many shops and
+                  establishments devoted to anime and manga are dispersed among
+                  the electronic stores in the district.
+                </div>
+
+                <br /><br /><br />
+                <div class="Packu">
+                  On Sundays, Chuo Dori, the main street through the district,
+                  is closed to car traffic from 13:00 to 18:00 (until 17:00 from
+                  October through March).
+                </div>
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#myModal5"
+                >
+                  <i></i>
+                  See more...
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- The Modal -->
+          <div class="modal" id="myModal5">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <img src="Gambar/jpm3.png" width="100%" />
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <h4>Akihabara (秋葉原)</h4>
+                  <h6>
+                    Hundreds of electronics shops, ranging from tiny one-man
+                    stalls specializing in a particular electronic component to
+                    large electronics retailers, line the main Chuo Dori street
+                    and the crowded side streets around Akihabara. They offer
+                    everything from the newest computers, cameras, televisions,
+                    mobile phones, electronics parts and home appliances to
+                    second-hand goods and electronic junk. A few chain stores
+                    such as Sofmap and Laox each operate multiple specialized
+                    branches along the main roads, while small independent shops
+                    can be found in the side streets. The only mega sized store
+                    is the Yodobashi Camera complex on the east side of the
+                    station. Note that some of the electronics on sale are only
+                    intended for use in Japan due to voltage and other technical
+                    differences, Japanese language documentation and limited
+                    warranties. However, several stores also feature a selection
+                    of international models intended for overseas use, and most
+                    also offer tax-free shopping to foreign tourists.
+                  </h6>
+                  <h3>Location :</h3>
+                  <p class="tombol1"></p>
+                  <article class="maps">
+                    <div class="maps">
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d809.9934849877588!2d139.77402950065624!3d35.7022589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ea73ea6f4ff%3A0x5eb9f1e50fe061e3!2sAkihabara%2C%20Taito%20City%2C%20Tokyo%20110-0006%2C%20Japan!5e0!3m2!1sen!2sid!4v1681541868727!5m2!1sen!2sid"
+                        width="600"
+                        height="450"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                      ></iframe>
+                    </div>
+                  </article>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+          <br />
+          <br />
+          <div class="row" style="margin-top: 40px">
+            <div class="col-sm-4 p-2 text-white">
+              <img src="Gambar/jp1.jpg" alt="" height="auto" width="100%" />
+            </div>
+            <div class="col-sm-8 p-3 text-black">
+              <div class="Packw">
+                The Chureito Pagoda (忠霊塔, Chūreitō) is a five storied pagoda
+                on the mountainside overlooking Fujiyoshida City and Mount Fuji
+                off in the distance. The pagoda is part of the Arakura Sengen
+                Shrine and was built as a peace memorial in 1963 nearly 400
+                steps up the mountain from the shrine's main buildings. Pagodas
+                are meant to symbolize sacred mountains and often shelter
+                religious relics. The Chureito Pagoda, also called the Chastain
+                Tower and officially named the Fujiyoshida Cenotaph Monument, is
+                a shrine located in the Fuji Five Lakes region at Mount Fuji's
+                northern base.
+              </div>
+              <br />
+              <div class="Packo">Open & Close Time : 8 AM–5:30 PM</div>
+              <br />
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#myModal6"
+              >
+                <i></i>
+                See more...
+              </button>
+            </div>
+          </div>
+
+          <!-- The Modal -->
+          <div class="modal" id="myModal6">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <img src="Gambar/jpm4.jpg" width="100%" />
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <h3>Chureito Pagoda (忠霊塔, Chūreitō)</h3>
+                  <h5>
+                    The location offers spectacular views of Mount Fuji in
+                    combination with the pagoda, especially during the cherry
+                    blossom season in mid April when there are hundreds of trees
+                    in bloom and during the autumn color season which usually
+                    takes place in the first half of November. The spot is
+                    particularly popular among photographers as it allows for
+                    some wonderfully stereotypical shots of Japan.
+                  </h5>
+                  <h3>Location :</h3>
+                  <p class="tombol1"></p>
+                  <article class="maps">
+                    <div class="maps">
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3248.1219536101366!2d138.79919651525393!3d35.50126258023664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6019674cfd52a073%3A0xda57e34920aee799!2sChureito%20Pagoda!5e0!3m2!1sen!2sid!4v1681541737308!5m2!1sen!2sid"
+                        width="600"
+                        height="450"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                      ></iframe>
+                    </div>
+                  </article>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-danger"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br /><br /><br /><br />
+        <!-- Remove the container if you want to extend the Footer to full width. -->
+
+        <footer class="bg-dark text-center text-white gx">
+          <!-- Grid container -->
+          <div class="container-fluid">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                href="#!"
+                role="button"
+                ><i class="fa fa-facebook-f"></i
+              ></a>
+
+              <!-- Twitter -->
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                href="#!"
+                role="button"
+                ><i class="fa fa-twitter"></i
+              ></a>
+
+              <!-- Google -->
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                href="#!"
+                role="button"
+                ><i class="fa fa-google"></i
+              ></a>
+
+              <!-- Instagram -->
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                href="#!"
+                role="button"
+                ><i class="fa fa-twitter"></i>
+              </a>
+              <!-- Linkedin -->
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                href="#!"
+                role="button"
+                ><i class="fa fa-youtube"></i
+              ></a>
+
+              <!-- Github -->
+              <a
+                class="btn btn-outline-light btn-floating m-1"
+                href="#!"
+                role="button"
+                ><i class="fa fa-instagram"></i>
+              </a>
+            </section>
+            <!-- Section: Social media -->
+          </div>
+          <!-- Grid container -->
+
+          <!-- Copyright -->
+          <div
+            class="text-center p-3"
+            style="background-color: rgba(0, 0, 0, 0.2)"
+          >
+            World Journey<br />
+            <a class="text-white"><h4>Email : WorldJourneyJP@gmail.com</h4></a>
+            <a class="text-white"> <h4>Call us : +81-8514-321-65</h4></a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+      </div>
+      <!-- End of .container -->
+    </div>
+  </body>
+</html>
